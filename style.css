@@ -3,7 +3,7 @@ body{
     align-content: center;
     overflow-y: scroll; /* Add the ability to scroll */
     /* overflow-y: hidden; */
-    margin: 30px;
+    margin: 0px;
     
 }
 html{
@@ -61,7 +61,7 @@ h1{
     background-color: mediumturquoise;
     text-align: center;
     justify-content: center;
-    margin: 200px
+    margin: 100px
 }
 
 .footer{
