@@ -1,7 +1,89 @@
 body{
     background-color: '#FBFEFF';
+    align-content: center;
+    overflow-y: scroll; /* Add the ability to scroll */
+    /* overflow-y: hidden; */
+    margin: 30px;
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+
+p{
+    font-size: 45px;
+}
+
+h1{
+    font-size: 50px;
+}
+
+/* flexbox container */
+
+.container {
+    display: flex;
+    background-color: hotpink;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* height: 100vh; */
+  
+
 }
 
 .header{
-    color: greenyellow;
+ 
+    flex: 1;
+    color:black;
+    text-align: center;
+    background-color: gold;
+}
+
+.about-me{
+    flex: 1;
+    background-color: khaki;
+    text-align: center;
+    margin: 100px;
+}
+
+.skills{
+    flex: 1;
+    background-color: mediumturquoise;
+    text-align: center;
+    justify-content: center;
+    margin: 200px
+}
+
+.footer{
+    flex: 1;
+    background-color: magenta;
+    text-align: center;
+}
+
+.item-container{
+    display: flex;
+    justify-content: center;
+}
+
+.item-container  > .items {
+    background-color: #f1f1f1;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    /* line-height: 75px; */
+    font-size: 30px;
+}
+
+.items > p {
+    font-size: 20px;
 }
